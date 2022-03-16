@@ -80,3 +80,10 @@ img{
     color: white;
     height: 100%;
 }
+
+.twitter-follow-button,
+.linkedIn-follow-button,
+.medium-follow-button {
+    height:auto;
+    width:auto;
+}
