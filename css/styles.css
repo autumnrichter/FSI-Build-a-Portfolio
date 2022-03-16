@@ -1,3 +1,82 @@
+#top {
+    font-family: 'Impact'; 
+    color: #003060;
+}
+
+#title {
+    background-color: #003060;
+    padding: 1%;
+    color: white;
+    font-family: 'Marker Felt', sans-serif;   
+}
+
+#codegirl {
+    color:#003060;
+    font-family: 'Impact';
+}
+
+h3 {
+    background-color: #003060;
+    color: white;
+    padding: .5%;
+    font-family: 'Papyrus', sans-serif;
+}
+
 body {
-background-color: rgb(151, 209, 247);
+    background-color: rgb(151, 209, 247);
+    font-family: 'Robot0', sans-serif;
+    color: #003060;
+}
+
+#me {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+}
+
+#projects {
+    margin-top: 80px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white; 
+    float: left;
+    margin-right: 10px;
+}
+.button {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #0E86D4;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Marker Felt', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #003060;
+
+}
+
+.button:active {
+    background: rgb(170, 170, 221));
+}
+
+.button__text, 
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    height: 100%;
 }
